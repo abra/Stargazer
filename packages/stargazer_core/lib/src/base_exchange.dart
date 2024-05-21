@@ -1,3 +1,3 @@
 import 'exchange.dart';
 
-abstract class BaseExchange implements Exchange {}
+abstract base class BaseExchange implements Exchange {}
