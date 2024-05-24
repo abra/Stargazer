@@ -6,21 +6,21 @@ import 'service/market_data_service.dart';
 import 'service/trade_service.dart';
 
 abstract interface class Exchange {
-  ExchangeInformation getExchangeInformation();
+  ExchangeInformation get getExchangeInformation;
 
-  ExchangeInformation getDefaultExchangeInformation();
+  ExchangeInformation get getDefaultExchangeInformation;
 
-  ExchangeMetadata getExchangeMetadata();
+  ExchangeMetadata get getExchangeMetadata;
 
-  List<Instrument> getInstruments();
+  List<Instrument> get getInstruments;
 
   void applySpecification(ExchangeInformation exchangeInformation);
 
-  MarketDataService getMarketDataService();
+  MarketDataService get getMarketDataService;
 
-  TradeService getTradeService();
+  TradeService get getTradeService;
 
-  AccountService getAccountService();
+  AccountService get getAccountService;
 
   void init();
 }

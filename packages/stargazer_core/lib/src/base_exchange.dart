@@ -11,43 +11,43 @@ abstract class BaseExchange implements Exchange {
   void applySpecification(ExchangeInformation exchangeInformation) {}
 
   @override
-  AccountService getAccountService() {
+  AccountService get getAccountService {
     // TODO: implement getAccountService
     throw UnimplementedError();
   }
 
   @override
-  ExchangeInformation getDefaultExchangeInformation() {
+  ExchangeInformation get getDefaultExchangeInformation {
     // TODO: implement getDefaultExchangeInformation
     throw UnimplementedError();
   }
 
   @override
-  ExchangeInformation getExchangeInformation() {
+  ExchangeInformation get getExchangeInformation {
     // TODO: implement getExchangeInformation
     throw UnimplementedError();
   }
 
   @override
-  ExchangeMetadata getExchangeMetadata() {
+  ExchangeMetadata get getExchangeMetadata {
     // TODO: implement getExchangeMetadata
     throw UnimplementedError();
   }
 
   @override
-  List<Instrument> getInstruments() {
+  List<Instrument> get getInstruments {
     // TODO: implement getInstruments
     throw UnimplementedError();
   }
 
   @override
-  MarketDataService getMarketDataService() {
+  MarketDataService get getMarketDataService {
     // TODO: implement getMarketDataService
     throw UnimplementedError();
   }
 
   @override
-  TradeService getTradeService() {
+  TradeService get getTradeService {
     // TODO: implement getTradeService
     throw UnimplementedError();
   }

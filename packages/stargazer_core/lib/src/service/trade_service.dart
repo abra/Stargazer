@@ -1,1 +1,1 @@
-class TradeService {}
+abstract interface class TradeService {}
