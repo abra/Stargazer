@@ -6,7 +6,7 @@ import 'service/account_service.dart';
 import 'service/market_data_service.dart';
 import 'service/trade_service.dart';
 
-abstract class BaseExchange implements Exchange {
+abstract interface class BaseExchange implements Exchange {
   @override
   void applySpecification(ExchangeInformation exchangeInformation) {}
 
