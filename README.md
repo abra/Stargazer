@@ -1,7 +1,7 @@
 <p align="center">
 🚧 Currently under development 🚧</p>
 <h1 align="center">
-  <img width="150" height="150" alt="Logo" src="https://github.com/abra/Stargazer/assets/55690/f5cc678c-c2f5-4aad-a052-8d1c72de7ed4">
+  <img width="150" height="150" alt="Logo" src="https://github.com/user-attachments/assets/390db454-1f12-452f-8cd2-8998e08bb2d0">
   <br/>Stargazer
 </h1>
 
